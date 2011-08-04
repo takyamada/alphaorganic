@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages>
+  <preload>
+    <file url="../flv/Alwind.flv" />
+    <vimeo file="../swf/vimeo_loader.swf" />
+  </preload>
+  <static>
+    <!-- news -->
+    <page name="news" type="text">
+      <title>
+        <![CDATA[News]]>
+      </title>
+      <content ceil_pos ="550" left_pos="-950">
+        <paragraph>
+        <text type='header'>
+            <![CDATA[NEW LOOK]]>
+          </text>
+          <text type='body'>
+            <![CDATA[We've updated the site, and finally got to fix video issues due to the vimeo]]>
+			</text>
+			<text type='body'>
+            <![CDATA[api update that we were not aware of.]]>
+			</text>
+		  <text type='body'>
+            <![CDATA[]]>
+          </text>
+		  <text type='body'>
+            <![CDATA[Videos, Microsites and Banners sections are added to the menu.]]>
+          </text>
+          <text type='body'>
+            <![CDATA[-AO Team]]>
+          </text>
+		  
+        </paragraph>
+      </content>
+    </page>
+    <!-- videos page -->
+    <page name="videos" type="subnav">
+      <title>
+        <![CDATA[Videos]]>
+      </title>
+      <content>
+        <link vidId="7826285" type="video" bg="../img/MBT.jpg">
+          <title>
+            <![CDATA[MBT awards video]]>
+          </title>
+        </link>
+        <link vidId="14041553" type="video" bg="../img/gadgetgirlz.jpg">
+          <title>
+            <![CDATA[Gadget Girlz]]>
+          </title>
+        </link>
+        <link vidId="8664533" type="video" bg="../img/just_chillin.jpg">
+          <title>
+            <![CDATA[Betanik Movement]]>
+          </title>
+        </link>
+       <link vidId="7194355" type="video" bg="../img/ymca.jpg">
+          <title>
+            <![CDATA[YMCA - YEP Video]]>
+          </title>
+        </link> 
+        <link vidId="7194137" type="video" bg="../img/pontiac.jpg">
+          <title>
+            <![CDATA[Pontiac Olympic Ad Music]]>
+          </title>
+        </link>
+      </content>
+    </page>
+	<!-- microsites page -->
+    <page name="microsites" type="subnav">
+      <title>
+        <![CDATA[Microsites]]>
+      </title>
+      <content>
+		<link file="../swf/showcase_template.swf" type = "swf" bg="../img/hin.jpg" url="http://www.healthinnumbers.com" w="100%" h="100%">
+          <title>
+            <![CDATA[Health in Numbers]]>
+          </title>
+		  <body>
+		  	<![CDATA[<p>Flash microsite for United Health Care.</p><br><p>Client: United Health Care</p><br><p>Agency: Critical Mass</p>]]>
+		  </body>
+        </link>
+		<link file="../swf/showcase_template.swf" type = "swf" bg="../img/smart_tech.jpg" url="http://en-ca.smartloveoflearning.com/" w="100%" h="100%">
+          <title>
+            <![CDATA[Smart Love of Learning]]>
+          </title>
+		  <body>
+		  	<![CDATA[<p>multiligual site, assigned to work on the Flash interface and animation.</p><br><p>Client: Smart Technologies</p><br><p>Agency: Sharpe Blackmore Euro RSCG & Off To Market</p>]]>
+		  </body>
+        </link>
+		<link file="../swf/showcase_template.swf" type = "swf" bg="../img/eGreeting.jpg" url="http://www.alphaorganicmedia.com/eCards/winter2009/" w="100%" h="100%">
+          <title>
+            <![CDATA[eGreeting Card]]>
+          </title>
+		  <body>
+		  	<![CDATA[Our 2009 Winter Holiday season eGreeting card.]]>
+		  </body>
+        </link>
+		
+		<link file="../swf/showcase_template.swf" type = "swf" bg="../img/MPH.jpg" url="http://www.sayitinslugs.com" w="100%" h="100%">
+          <title>
+            <![CDATA[sayitinslugs.com]]>
+          </title>
+		  <body>
+		  	<![CDATA[<p>This site was built for a Toronto based Art Director Matias Palacios-Hardy.</p><p>The site can easily be updated through XML.</p>]]>
+		  </body>
+        </link>
+		<link file="../swf/showcase_template.swf" type = "swf" bg="../img/optout.jpg" url="http://www.optoutandfart.com" w="100%" h="100%">
+          <title>
+            <![CDATA[optoutandfart.com]]>
+          </title>
+		  <body>
+		  	<![CDATA[<p>This site was created to give voice to the people who travel into and out of the United States and whose health and privacy matter.</p><br><p> The site aims to expose the facts about the X-Ray scanners and to educate travelers of the risks they take when not opting out. </p>]]>
+		  </body>
+        </link>
+		
+      </content>
+    </page>
+	<!-- banners page -->
+   <page name="banners" type="subnav">
+      <title>
+        <![CDATA[Banners]]>
+      </title>
+      <content>
+        <link file="../swf/showcase_template.swf" url="../banners/en-ca_smartLOL_300x250.html" type = "swf" bg="../img/banner_smart.jpg" w="300" h="250">
+          <title>
+            <![CDATA[smartloveoflearning.com]]>
+          </title>
+		  <body>
+		  	<![CDATA[<p>One of the banners for Smart Technologies Smartboard site.</p><br><p>Client: Smart Technologies</p><br><p>Agency: Sharpe Blackmore Euro RSCG & Off To Market</p>]]>
+		  </body>
+        </link>
+		<link file="../swf/showcase_template.swf" url="http://www.alphaorganicmedia.com/previewSite/banners/investco_subway.html" type = "swf" bg="../img/banner_invesco.jpg" w="300" h="250">
+          <title>
+            <![CDATA[knowingpays.ca]]>
+          </title>
+		  <body>
+		  	<![CDATA[<p>One of the banners for Invesco Trimark knowingpays.ca.</p><br><p>Client: Invesco Trimark</p><br><p>Agency: Grey Canada</p>]]>
+		  </body>
+        </link>
+      </content>
+    </page>
+    <!-- services page -->
+    <page name="services" type="text">
+      <title>
+        <![CDATA[What We Do]]>
+      </title>
+      <content ceil_pos ="570" left_pos="-700">
+        <paragraph>
+          <text type='header'>
+            <![CDATA[Music Production]]>
+          </text>
+          <text type='body'>
+            <![CDATA[We are wanna-be rock stars who realized that (no)sex,]]>
+          </text>
+          <text type='body'>
+            <![CDATA[drugs and rock and roll is not for nerds like us.]]>
+          </text>
+          <text type='body'>
+            <![CDATA[Film, television and radio is much $weeter.]]>
+          </text>
+          <text type='header'>
+            <![CDATA[Audio/Video]]>
+          </text>
+          <text type='body'>
+            <![CDATA[Visual FX are cool! So are we.]]>
+          </text>
+          <text type='body'>
+            <![CDATA[We make really nice sound too.]]>
+          </text>
+          <text type='header'>
+            <![CDATA[Interactive Media, Web, & Design]]>
+          </text>
+          <text type='body'>
+            <![CDATA[We surf the web, a lot.]]>
+          </text>
+          <text type='body'>
+            <![CDATA[And we can make it better.]]>
+          </text>
+        </paragraph>
+      </content>
+    </page>
+    <!-- about page -->
+    <page name="about" type="text">
+      <title>
+        <![CDATA[The Guys]]>
+      </title>
+      <content ceil_pos ="550" left_pos="-1000">
+        <paragraph>
+          <text type='header'>
+            <![CDATA[The Guys]]>
+          </text>
+          <text type='body'>
+            <![CDATA[After living the lives of rock stars, life sucked. So, Adriano and Tak used the]]>
+          </text>
+          <text type='body'>
+            <![CDATA[awesomeness of their combined brain power to create Alpha Organic (inc!).]]>
+          </text>
+          <text type='body'>
+            <![CDATA[]]>
+          </text>
+          <text type='body'>
+            <![CDATA[Adriano studied business and enjoys polishing his skills in programming, design, and]]>
+          </text>
+          <text type='body'>
+            <![CDATA[post production. Tak, a Reiki practitioner, certified in feng shui, has been working in]]>
+          </text>
+          <text type='body'>
+            <![CDATA[the interactive industry for over 9 years.]]>
+          </text>
+          <text type='body'>
+            <![CDATA[]]>
+          </text>
+          <text type='body'>
+            <![CDATA[Alpha Organic brings a fun, fresh, creative approach with a small business feel and...]]>
+          </text>
+          <text type='body'>
+            <![CDATA[]]>
+          </text>
+          <text type='body'>
+            <![CDATA[We pour FREE LOVE into our projects.]]>
+          </text>
+        </paragraph>
+      </content>
+    </page>
+    <!-- contact page -->
+	<page name="contact" TARG="_blank" url="../html/contact.php" type="link" w="550" h="500">
+      <title>
+        <![CDATA[Contact Us]]>
+      </title>
+    </page>
+    <!--<page name="contact" type="text">
+      <title>
+        <![CDATA[Contact Us]]>
+      </title>
+      <content ceil_pos ="400" left_pos="-600">
+        <paragraph>
+          <text type='header'>
+            <![CDATA[Contact Info]]>
+          </text>
+          <text type='body'>
+            <![CDATA[info@AlphaOrganicMedia.com]]>
+          </text>
+          <text type='body'>
+            <![CDATA[tel: 1.416.873.3634]]>
+          </text>
+          <text type='body'>
+            <![CDATA[skype: adriano.maurer / lefty.tak]]>
+          </text>
+          <text type='body'>
+            <![CDATA[243 Oxford St. Richmond Hill Ontario L4C 7V7]]>
+          </text>
+        </paragraph>
+      </content>
+    </page>-->
+    <page name="blog" TARG="_blank" url="http://www.alphaorganicmedia.com/blog/" type="link" w="100%" h="100%">
+      <title>
+        <![CDATA[Blog]]>
+      </title>
+    </page>
+  </static>
+</pages>
